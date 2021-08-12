@@ -1,1 +1,131 @@
-<mxfile host="app.diagrams.net" modified="2021-08-12T06:39:38.272Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" version="14.9.5" etag="gPnfOhyMc-ecs2HWOIJD" type="github"><diagram id="rqet1Tc0u9tJuobdaWOp">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-08-12T07:14:38.855Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="6CUd-W6_Ij5Ck3Rrolwc" version="14.9.5" type="github">
+  <diagram id="rqet1Tc0u9tJuobdaWOp" name="Page-1">
+    <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jCvvTT3Rddx-Ie82XcbA-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="510" width="440" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="jCvvTT3Rddx-Ie82XcbA-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="jCvvTT3Rddx-Ie82XcbA-1" target="jCvvTT3Rddx-Ie82XcbA-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jCvvTT3Rddx-Ie82XcbA-1" value="Mysql&lt;br&gt;（好友关系）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="620" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jCvvTT3Rddx-Ie82XcbA-4" value="Redis&lt;br&gt;（缓存好友关系）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="540" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jCvvTT3Rddx-Ie82XcbA-5" value="Redis&lt;br&gt;(好友附加信息)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="540" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jCvvTT3Rddx-Ie82XcbA-7" value="MongoDB&lt;br&gt;(日记信息/好友请求)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="610" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jCvvTT3Rddx-Ie82XcbA-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jCvvTT3Rddx-Ie82XcbA-9" target="jCvvTT3Rddx-Ie82XcbA-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jCvvTT3Rddx-Ie82XcbA-9" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="330" width="440" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="jCvvTT3Rddx-Ie82XcbA-12" value="好友关系模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="380" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jCvvTT3Rddx-Ie82XcbA-15" value="日记模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="484" y="380" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jCvvTT3Rddx-Ie82XcbA-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jCvvTT3Rddx-Ie82XcbA-17" target="jCvvTT3Rddx-Ie82XcbA-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jCvvTT3Rddx-Ie82XcbA-17" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="150" width="440" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="jCvvTT3Rddx-Ie82XcbA-18" value="获取好友列表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="210" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jCvvTT3Rddx-Ie82XcbA-19" value="添加好友" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="170" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jCvvTT3Rddx-Ie82XcbA-21" value="好友申请" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="250" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jCvvTT3Rddx-Ie82XcbA-22" value="好友申请列表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="170" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jCvvTT3Rddx-Ie82XcbA-23" value="好友关系状态" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="210" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jCvvTT3Rddx-Ie82XcbA-26" value="删除好友" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="250" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jCvvTT3Rddx-Ie82XcbA-27" value="获取日记列表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="503" y="170" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jCvvTT3Rddx-Ie82XcbA-28" value="好友留言" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="503" y="210" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jCvvTT3Rddx-Ie82XcbA-30" value="公告信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="503" y="250" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jCvvTT3Rddx-Ie82XcbA-34" value="Controller" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="200" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jCvvTT3Rddx-Ie82XcbA-35" value="Service" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="360" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jCvvTT3Rddx-Ie82XcbA-36" value="DAO" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="580" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jCvvTT3Rddx-Ie82XcbA-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.2;entryY=1.021;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jCvvTT3Rddx-Ie82XcbA-37" target="jCvvTT3Rddx-Ie82XcbA-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jCvvTT3Rddx-Ie82XcbA-37" value="MQ模块&lt;br&gt;(监听积分消息以及好友变更等消息)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="185" y="848" width="225" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="jCvvTT3Rddx-Ie82XcbA-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.793;entryY=1.005;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jCvvTT3Rddx-Ie82XcbA-40" target="jCvvTT3Rddx-Ie82XcbA-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jCvvTT3Rddx-Ie82XcbA-40" value="Admin模块&lt;br&gt;(配置日记文案以及公告信息)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="448" y="848" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="jCvvTT3Rddx-Ie82XcbA-44" value="Consumer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="898" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jCvvTT3Rddx-Ie82XcbA-45" value="Admin" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="670" y="888" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jCvvTT3Rddx-Ie82XcbA-49" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="jCvvTT3Rddx-Ie82XcbA-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="209" y="420" as="sourcePoint" />
+            <mxPoint x="70" y="380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="80" y="420" />
+              <mxPoint x="80" y="908" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jCvvTT3Rddx-Ie82XcbA-52" value="好友变更发消息，生成日记记录" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jCvvTT3Rddx-Ie82XcbA-49">
+          <mxGeometry x="-0.0165" y="-4" relative="1" as="geometry">
+            <mxPoint x="34" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jCvvTT3Rddx-Ie82XcbA-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jCvvTT3Rddx-Ie82XcbA-53" target="jCvvTT3Rddx-Ie82XcbA-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="970" />
+              <mxPoint x="280" y="970" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jCvvTT3Rddx-Ie82XcbA-55" value="用户行为日记，如捉蜜蜂等" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jCvvTT3Rddx-Ie82XcbA-54">
+          <mxGeometry x="0.0833" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jCvvTT3Rddx-Ie82XcbA-53" value="积分系统" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="1040" width="120" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
